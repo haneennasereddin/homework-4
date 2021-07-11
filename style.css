@@ -1,0 +1,88 @@
+/* fonts */
+html {
+	font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+body {
+	background-color: #eee2dc;
+}
+
+header {
+    text-align: center
+}
+
+h1 {
+	display: inline-block;
+    color: #123c69;
+}
+
+h2 {
+	font-size: 3em;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 10px;
+    color: #ac3b61;
+}
+p {
+	text-align: center;
+	font-size: 1.5em;
+	padding: 20px;
+    color: #123c69;
+}
+
+/* centering start & reset  */
+
+.nav-btn {
+	flex-direction: column;
+	text-align: center;
+	margin: 40px;
+}
+
+/* styling buttons */
+
+.rs-btn {
+	padding: 5px;
+	justify-content: center;
+	color: white;
+	font-size: 1.25em;
+	cursor: pointer;
+	background-color: #123c69;
+	border-color: #999999;
+}
+
+.answerContainer {
+	margin: 40px;
+	text-align: center;
+}
+
+.answer-btn {
+	padding: 5px;
+	color: #bab2b5;
+	font-size: 1.25em;
+	cursor: pointer;
+	background-color: #123c69;
+	border-color: #999999;
+	justify-content: center;
+	align-items: center;
+}
+
+#scoreInput {
+	display: none;
+	text-align: center;
+}
+
+#a1 {
+	display: none;
+}
+
+#a2 {
+	display: none;
+}
+
+#a3 {
+	display: none;
+}
+
+#a4 {
+	display: none;
+}

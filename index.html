@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Coding Quiz</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='reset.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <header>
+        <nav>
+            <a id= "highscores">View Highscores</a>
+            <h1 id = "timer"></h1> 
+        </nav>
+
+    </header>
+    <h2>Coding Quiz</h2>
+    <p id = "intro">Instructions:<br> Once you quick 'Start Quiz' you will then answer a series of questions<br> in the next 60 seconds. <br> If answered incorrectly, time will be subtracted from the clock. <br> Good Luck! :) </p>
+    <p id = "question"></p>
+    <ul id = "scoreboard">
+    </ul>
+    <form id = "scoreInput">
+        <label for="name">Name:</label><input type="text" id="nameInput" name="fname"><input type="submit" id = "submit-btn">
+    </form>
+    <div class="answerContainer">
+        <button class = "answer-btn" id = "a1"></button>
+        <button class = "answer-btn" id = "a2"></button>
+        <button class = "answer-btn" id = "a3"></button>
+        <button class = "answer-btn" id = "a4"></button>
+    </div>
+    <section id = "answerValidity"></section>
+    <div class="nav-btn">
+        <button class = "rs-btn" id = "start-btn">Start Quiz</button>
+    </div>
+</body>
+<script src='script.js'></script>
+</html>
