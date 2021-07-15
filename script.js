@@ -1,5 +1,5 @@
 
-    var startButtonEl = document.querySelector("#start-button");
+    var startButtonEl = document.querySelector("#start-btn");
     var timerEl = document.querySelector("#timer");
     var questionEl = document.querySelector("#question");
     var scoreboardEl = document.querySelector("#scoreboard");
